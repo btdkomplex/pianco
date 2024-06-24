@@ -341,7 +341,7 @@ const connect = () => {
     ws = new WebSocket(
       location.hostname === 'pian.co'
         ? 'wss://backend.pian.co'
-        : `wss://${location.hostname}:11088`
+        : `ws://essexgoth.co.uk:11088`
     )
     // handle regroup
     ws.addEventListener('message', onRegroup)
